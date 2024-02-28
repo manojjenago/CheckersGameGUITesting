@@ -149,8 +149,24 @@ public class HomePage extends PageBase {
 
         WebElement restartGeme = driver.findElement(By.xpath("//a[ text()='Restart...']"));
         restartGeme.click();
+
+        // Confirm that the restarting had been successful
+        Assert.assertEquals("Game restart verification failed!",
+                true, isRestartSuccessful(driver));
+        System.out.println("Game restarted successfully!");
+
+
         Thread.sleep(2000);
         isNewGame();
+    }
+
+    // Function to check if the game restart is successful
+    private static boolean isRestartSuccessful(WebDriver driver) {
+        // Find the element with id 'message' and check its text
+        WebElement messageElement = driver.findElement(By.xpath("//p[@id='message' and text()='Select an orange piece to move.']"));
+        String messageText = messageElement.getText();
+        // Check if the message text indicates successful restart
+        return "Select an orange piece to move.".equals(messageText);
     }
 
     public void isCardGameSiteUp() {
