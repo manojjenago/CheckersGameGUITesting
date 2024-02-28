@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3778980600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializeWebDrive.beforeChrome()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify Checkers Game",
+        "description": "",
+        "id": "the-checkers-game-gui-testing;verify-checkers-game",
+        "after": [
+          {
+            "result": {
+              "duration": 2205582800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InitializeWebDrive.afterChrome(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4702399100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": Navigate to \"ChekerGameURL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ChekerGameURL",
+                  "offset": 15
+                }
+              ],
+              "location": "CheckersGame.navigateTo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148255800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": Confirm that site is up",
+            "match": {
+              "location": "CheckersGame.confirmThatSiteIsUp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29102180200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": Make five legal moves as orange",
+            "match": {
+              "location": "CheckersGame.makeFiveLegalMovesAsOrange()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4895452200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": Restart the game",
+            "match": {
+              "location": "CheckersGame.restartTheGame()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@chrome"
+          }
+        ]
+      }
+    ],
+    "name": "The Checkers Game GUI Testing",
+    "description": "",
+    "id": "the-checkers-game-gui-testing",
+    "keyword": "Feature",
+    "uri": "featurefile/CheckersGame.feature"
+  }
+]

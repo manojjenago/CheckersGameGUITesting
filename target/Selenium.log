@@ -1,0 +1,11 @@
+2024-02-28 09:12:54 [INFO ] [InitializeWebDrive] - [standAloneStepUp] Chrome
+2024-02-28 09:12:58 [INFO ] [InitializeWebDrive] - [beforeChrome] Chrome
+2024-02-28 09:13:03 [INFO ] [HomePage] - [isSiteUp] title is :-Checkers - Games for the Brain
+2024-02-28 09:13:03 [INFO ] [HomePage] - [make5Moves] Number of Orange Dots are :-12
+2024-02-28 09:13:03 [INFO ] [HomePage] - [make5Moves] Number of Blue Dots are :-12
+2024-02-28 09:13:04 [INFO ] [HomePage] - [make5Moves] Number of Orange Dots are :-11
+2024-02-28 09:13:04 [INFO ] [HomePage] - [make5Moves] Number of Blue Dots are :-12
+2024-02-28 09:13:34 [INFO ] [HomePage] - [restartGame] Number of Blue Dots are :-11
+2024-02-28 09:13:39 [INFO ] [InitializeWebDrive] - [tearDownDriver] Shutting Down the driver
+2024-02-28 09:13:39 [INFO ] [InitializeWebDrive] - [afterChrome] 
+2024-02-28 09:13:44 [INFO ] [CucumberReport] - [onFinish] Report Generated : target\test-classes\reports\cucumberreports

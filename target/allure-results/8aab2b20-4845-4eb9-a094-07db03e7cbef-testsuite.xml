@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1709129573388" stop="1709129620169" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : Test - 1</name>
+    <title>Suite : Test - 1</title>
+    <test-cases>
+        <test-case start="1709129574377" stop="1709129619364" status="passed">
+            <name>feature[The Checkers Game GUI Testing]</name>
+            <description>Runs Cucumber Feature</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ManojLaptop"/>
+                <label name="thread" value="21088@ManojLaptop.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

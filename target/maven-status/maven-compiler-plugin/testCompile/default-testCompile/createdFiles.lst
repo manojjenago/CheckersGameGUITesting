@@ -1,0 +1,4 @@
+com\cucumber\framework\runner\CheckersGameRunner.class
+com\cucumber\framework\stepdefinition\CheckersGame.class
+com\cucumber\framework\runner\CardsGameRunner.class
+com\cucumber\framework\stepdefinition\DeckCardGame.class
