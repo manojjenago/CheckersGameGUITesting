@@ -10,5 +10,5 @@ The Checkers Game GUI Testing
 
 
 
-    ![Checkers Game_Report_Screenshot 2024-02-27 194901](https://github.com/manojjenago/CheckersGameGUITesting/assets/20192908/1e3327cb-63b9-4e69-8b75-d4618e68db3a)
 
+![image](https://github.com/manojjenago/CheckersGameGUITesting/assets/20192908/cd19292f-e6ba-4ed5-b9fe-aefd6caa1ceb)
